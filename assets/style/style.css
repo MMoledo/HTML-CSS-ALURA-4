@@ -1,3 +1,7 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(categorias.css);
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +14,6 @@
     --verde: #56B78C;
     --cinza-claro: #D9D9D9;
     --cinza-escuro: #959595;
-
     /*fontes*/
     --fonte-primaria: 'Work Sans', sans-serif;
     --fonte-secundaria: 'Fjalla One', sans-serif;

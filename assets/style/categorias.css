@@ -1,0 +1,19 @@
+.categorias__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.categorias__destaques{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (min-width: 720px) {
+    .categorias__lista{
+        flex-wrap: wrap;
+        gap: 1rem 1.5rem;
+    }
+    
+}
